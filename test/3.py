@@ -16,6 +16,7 @@ scores = np.array([
 width = 0.2
 x = np.arange(len(feedback_types))
 
+
 # 绘制每个阶段的柱子
 for i, stage in enumerate(stages):
     plt.bar(x + i*width - width, scores[i], width, label=stage)
