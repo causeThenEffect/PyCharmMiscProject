@@ -1,0 +1,9 @@
+// 示例有向图
+digraph {
+	A [label="节点 A"]
+	B [label="节点 B"]
+	C [label="节点 C"]
+	A -> B [label="A到B"]
+	B -> C [label="B到C"]
+	A -> C [label="A到C"]
+}

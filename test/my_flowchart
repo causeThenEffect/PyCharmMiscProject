@@ -1,0 +1,7 @@
+digraph {
+	Start [shape=ellipse]
+	Process [label="处理数据"]
+	End [shape=ellipse]
+	Start -> Process
+	Process -> End
+}
